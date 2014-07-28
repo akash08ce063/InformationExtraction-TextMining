@@ -25,6 +25,11 @@ Relation Extraction ---
 Based on the NEs detected above, ﬁnd the relations between a Person and its
 Position, and between the unit or university the person works for. For example, from the newspaper
 headline "Abrupt exit for Concordia President Woodworths" you would be able to detect (1) a University
-(Concordia), a Position (president), a Person (Woodsworth), and infer that 
+(Concordia), a Position (president), a Person (Woodsworth), and infer that  1). "President Woodworth" belongs_to "Concordia" and 2). "woodWorth" has_position "President".
+
+
+Evaluation ---
+
+The application pipeline is located in the folder named "newFinalPipeline". 
 
 
